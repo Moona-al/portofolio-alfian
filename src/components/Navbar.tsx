@@ -185,7 +185,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -10, scale: 0.95 }}
             transition={{ type: 'spring', stiffness: 400, damping: 30 }}
-            className="md:hidden mt-2 nav-pill p-4 flex flex-col gap-2"
+            className="md:hidden mt-2 nav-pill p-4 flex flex-col gap-2 rounded-2xl"
           >
             {NAV_ITEMS.map((item) => (
               <button
