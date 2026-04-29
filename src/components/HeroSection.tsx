@@ -5,7 +5,7 @@ import PixelBlast from './PixelBlast';
 import GradientText from './GradientText';
 import ScrollVelocity from './ScrollVelocity';
 
-const MARQUEE = ['JavaScript', 'TypeScript', 'React', 'HTML5', 'TailwindCSS', 'Python', 'Node.js', 'Three.js', 'GSAP', 'Figma'];
+const MARQUEE = ['JavaScript', 'TypeScript', 'React', 'HTML5', 'TailwindCSS', 'Node.js', 'Three.js', 'GSAP', 'Figma'];
 
 export default function HeroSection() {
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -27,7 +27,7 @@ export default function HeroSection() {
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <PixelBlast color="#B19EEF" pixelSize={4} speed={0.5} enableRipples rippleSpeed={0.4} />
+        <PixelBlast color="#3500e4" pixelSize={4} speed={0.5} enableRipples rippleSpeed={0.4} />
       </div>
       <div className="absolute inset-0 z-[1]" style={{ background: 'radial-gradient(ellipse at center, rgba(8,8,8,0.2) 0%, rgba(8,8,8,0.88) 65%, #080808 100%)' }} />
       <div className="absolute bottom-0 left-0 right-0 h-48 z-[1]" style={{ background: 'linear-gradient(to top, #080808, transparent)' }} />
@@ -36,14 +36,14 @@ export default function HeroSection() {
         <div ref={badgeRef} className="opacity-0 mb-8 flex justify-center">
           <div className="flex items-center gap-2 px-4 py-2 rounded-full text-xs font-mono"
             style={{ background: 'rgba(177,158,239,0.08)', border: '1px solid rgba(177,158,239,0.2)', color: '#B19EEF' }}>
-            <span className="w-2 h-2 rounded-full" style={{ background: '#B19EEF', boxShadow: '0 0 6px #B19EEF', animation: 'pulse 2s infinite', display: 'inline-block' }} />
-            Open to Learn & Collaborate
+            <span className="w-2 h-2 rounded-full" style={{ background: '#18d1ff', boxShadow: '0 0 6px #B19EEF', animation: 'pulse 2s infinite', display: 'inline-block' }} />
+            This is my Portofolio
           </div>
         </div>
 
         <h1 ref={headingRef} className="font-display font-bold leading-none tracking-tighter mb-4"
           style={{ fontSize: 'clamp(4rem, 12vw, 9rem)', perspective: '800px' }}>
-          {['Adit', 'Kusuma'].map((word, wi) => (
+          {['Alfian', 'Fadillah'].map((word, wi) => (
             <span key={wi} className="block overflow-hidden">
               {word.split('').map((char, ci) => (
                 <span key={ci} className="ch inline-block"
@@ -56,13 +56,13 @@ export default function HeroSection() {
         </h1>
 
         <p className="font-mono text-sm tracking-widest uppercase mb-6" style={{ color: '#444' }}>
-          Student · Web Developer · 15 y.o.
+          Student | Web Developer & Media Kreatif | 17 y.o.
         </p>
 
         <p ref={subRef} className="opacity-0 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed" style={{ color: '#666' }}>
-          Pelajar 15 tahun yang membangun{' '}
-          <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={4}>pengalaman web yang keren</GradientText>.
-          {' '}Belajar setiap hari, satu commit satu langkah maju.
+          Seorang pelajar 17 tahun Memiliki{' '}
+          <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={4}>Minat web yang tinggi</GradientText>.
+          {' '}Siap belajar dan berkolaborasi dalam proyek anda!
         </p>
 
         <div ref={ctaRef} className="opacity-0 flex flex-wrap gap-4 justify-center">

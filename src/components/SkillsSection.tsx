@@ -8,17 +8,17 @@ import ScrollVelocity from './ScrollVelocity';
 gsap.registerPlugin(ScrollTrigger);
 
 const SKILLS = [
-  { name: 'JavaScript', level: 80, color: '#f7df1e' },
+  { name: 'JavaScript', level: 70, color: '#f7df1e' },
   { name: 'TypeScript', level: 70, color: '#3178c6' },
-  { name: 'React',      level: 75, color: '#61dafb' },
+  { name: 'React/Next.js',  level: 75, color: '#61dafb' },
   { name: 'HTML5',      level: 90, color: '#e34f26' },
   { name: 'CSS3',       level: 85, color: '#1572b6' },
   { name: 'TailwindCSS',level: 80, color: '#38bdf8' },
-  { name: 'Python',     level: 65, color: '#4b8bbe' },
-  { name: 'GSAP',       level: 60, color: '#88ce02' },
+  { name: 'Canva',     level: 80, color: '#4b8bbe' },
+  { name: 'Figma',       level: 60, color: '#88ce02' },
 ];
 
-const TOOLS = ['VS Code','Git','GitHub','Figma','Vite','npm','Vercel','Netlify','Postman','ESLint'];
+const TOOLS = ['VS Code','Git','GitHub','Vite','npm','Vercel','Next.js','Canva','Figma','Laravel'];
 
 export default function SkillsSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -45,14 +45,14 @@ export default function SkillsSection() {
             <span className="text-xs font-mono tracking-widest uppercase" style={{ color: '#B19EEF' }}>Skills</span>
           </div>
           <h2 className="font-display font-bold text-5xl md:text-7xl tracking-tight leading-tight">
-            <GradientText colors={['#ffffff', '#888888', '#444444']} animationSpeed={12}>Tech</GradientText>
-            <span className="ml-3" style={{ color: '#1e1e1e' }}>Stack.</span>
+            <GradientText colors={['#ffffff', '#888888', '#444444']} animationSpeed={12}>My</GradientText>
+            <span className="ml-3" style={{ color: '#1e1e1e' }}>Skill</span>
           </h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           <div ref={barsRef}>
-            <p className="font-display font-medium text-base mb-8" style={{ color: '#666' }}>Proficiency Level</p>
+            <p className="font-display font-medium text-base mb-8" style={{ color: '#666' }}>Skill Level</p>
             <div className="space-y-5">
               {SKILLS.map((s, i) => (
                 <motion.div key={s.name} initial={{ opacity: 0, x: -16 }} animate={isInView ? { opacity: 1, x: 0 } : {}} transition={{ delay: i * 0.04 }}>
@@ -80,7 +80,7 @@ export default function SkillsSection() {
             </div>
 
             <div className="grid grid-cols-3 gap-3">
-              {[{ n: '10+', label: 'Projects' }, { n: '1+', label: 'Tahun Coding' }, { n: '5+', label: 'Tech Stack' }].map((s) => (
+              {[{ n: '8+', label: 'Projects' }, { n: '2+', label: 'Tahun Coding' }, { n: '5+', label: 'Tech Stack' }].map((s) => (
                 <div key={s.label} className="glass-card rounded-2xl p-5 text-center">
                   <p className="font-display font-bold text-2xl mb-1 gradient-text-accent">{s.n}</p>
                   <p className="text-xs font-mono" style={{ color: '#444' }}>{s.label}</p>
@@ -93,7 +93,7 @@ export default function SkillsSection() {
 
       <div className="mt-20" style={{ borderTop: '1px solid rgba(255,255,255,0.04)', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
         <ScrollVelocity
-          texts={['JavaScript · TypeScript · React · TailwindCSS · Python · GSAP · Node.js · HTML5', 'CSS3 · Figma · Git · Vite · Vercel · REST API · Three.js']}
+          texts={['JavaScript · TypeScript · React · TailwindCSS  · GSAP · Node.js · HTML5', 'CSS3 · Figma · Git · Vite · Vercel · REST API · Three.js']}
           velocity={45} className="text-xs font-mono" />
       </div>
     </section>

@@ -8,16 +8,16 @@ import GradientText from './GradientText';
 gsap.registerPlugin(ScrollTrigger);
 
 const INFO = [
-  { label: 'Nama',       value: 'Adit Kusuma', icon: '✨' },
-  { label: 'Umur',       value: '15 Tahun',    icon: '🎂' },
+  { label: 'Nama',       value: 'Alfian Fadillah', icon: '✨' },
+  { label: 'Umur',       value: '17 tahun',    icon: '🎂' },
   { label: 'Gender',     value: 'Male',        icon: '👤' },
-  { label: 'Pendidikan', value: 'Pelajar',     icon: '🎓' },
+  { label: 'Pendidikan', value: 'SMK IK GHAMA CARAKA',     icon: '🎓' },
   { label: 'Status',     value: 'Pelajar',     icon: '📚' },
   { label: 'Location',   value: 'Indonesia',   icon: '🌏' },
 ];
 
 const USE_VIDEO = false;
-const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/Adit.jpg';
+const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/Alfian.jpg';
 
 export default function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -150,14 +150,13 @@ export default function AboutSection() {
               <p className="text-lg leading-relaxed" style={{ color: '#888' }}>
                 Halo! Saya{' '}
                 <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={5}>
-                  Adit Kusuma
+                  Alfian Fadillah
                 </GradientText>
-                , seorang pelajar berusia 15 tahun yang passionate di dunia web development dan teknologi.
+                , seorang pelajar berusia 17 tahun yang passionate di dunia web development dan teknologi.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#555' }}>
-                Meski masih muda, saya terus belajar dan mengembangkan skill di bidang JavaScript, TypeScript,
-                React, dan Python. Saya percaya tidak ada kata terlalu dini untuk mulai berkarya di dunia digital.
-                Setiap hari adalah kesempatan belajar hal baru!
+                Siswa dan juga Website Developer yang berpengalaman dalam membangun dan mengelola website berbasis front-end dan back-end. Menguasai HTML, CSS, JavaScript, serta framework seperti Laravel/React. Berpengalaman dalam integrasi API, optimasi performa website, dan manajemen database (MySQL). Memiliki kemampuan problem-solving yang baik serta terbiasa bekerja dengan sistem version control seperti Git. Serta juga berpengalaman dalam 
+                mengelola media kreatif sosial media.
               </p>
             </div>
 
@@ -183,11 +182,11 @@ export default function AboutSection() {
               style={{ background: 'rgba(177,158,239,0.03)', border: '1px solid rgba(177,158,239,0.09)' }}
             >
               <p className="text-sm leading-relaxed italic" style={{ color: '#555' }}>
-                "Muda bukan halangan. Setiap baris kode yang saya tulis adalah langkah menuju masa depan yang saya impikan."
+                “Nggak perlu nunggu siap, mulai aja dulu.Konsisten sekarang, hasil nyusul nanti.”
               </p>
               <div className="mt-3 flex items-center gap-2">
                 <div className="w-5 h-px" style={{ background: 'rgba(177,158,239,0.35)' }} />
-                <span className="text-xs font-mono" style={{ color: '#B19EEF' }}>Developer Motto</span>
+                <span className="text-xs font-mono" style={{ color: '#B19EEF' }}>MY MOTTO</span>
               </div>
             </div>
           </motion.div>

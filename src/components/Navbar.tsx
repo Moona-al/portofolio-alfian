@@ -104,9 +104,9 @@ export default function Navbar() {
               border: '1px solid rgba(177,158,239,0.2)',
             }}
           >
-            {'</>'}
+            {'<AF>'}
           </div>
-          <span className="gradient-text">Adit</span>
+          <span className="gradient-text">Alfian</span>
         </motion.a>
 
         {/* ── Desktop nav ── */}
