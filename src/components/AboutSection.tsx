@@ -182,7 +182,7 @@ export default function AboutSection() {
               style={{ background: 'rgba(177,158,239,0.03)', border: '1px solid rgba(177,158,239,0.09)' }}
             >
               <p className="text-sm leading-relaxed italic" style={{ color: '#555' }}>
-                “Nggak perlu nunggu siap, mulai aja dulu.Konsisten sekarang, hasil nyusul nanti.”
+                “Nggak perlu nunggu siap, mulai aja dulu.Konsisten sekarang, hasil nyusul nanti. dan jangan lupa pecut AI demi kemudahan Ngoding:)”
               </p>
               <div className="mt-3 flex items-center gap-2">
                 <div className="w-5 h-px" style={{ background: 'rgba(177,158,239,0.35)' }} />

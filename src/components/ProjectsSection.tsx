@@ -23,13 +23,13 @@ const PROJECTS = [
     image: '/projects/showcase.png'
   },
   {
-    title: 'Game 2D atheria',
-    desc: 'Sebuah game 2D sederhana bernama Aetheria yang dibuat menggunakan Unity.',
-    tags: ['Unity','C++','C#','Game Development'],
+    title: 'Project Web Peminjaman Admin + User',
+    desc: 'Sebuah aplikasi web untuk sistem peminjaman dengan fitur admin dan user.',
+    tags: ['Next.js','Node.js','Database'],
     year: '2026',
     color: '#38bdf8',
-    link: 'https://github.com/RaiStillLearning/Aetheria2D.git',
-    image: '/projects/game.png'
+    link: 'https://github.com/Moona-al/perpustakaan-sistempeminjaman.git',
+    image: '/projects/perpus.png'
   },
   {
     title: 'Membuat Website SaaS sederhana',
