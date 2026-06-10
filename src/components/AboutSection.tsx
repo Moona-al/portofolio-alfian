@@ -17,7 +17,7 @@ const INFO = [
 ];
 
 const USE_VIDEO = false;
-const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/alfian.jpg';
+const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/Alfian.jpg';
 
 export default function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -131,7 +131,7 @@ export default function AboutSection() {
                     ))}
                   </div>
                   <p className="text-xs font-mono" style={{ color: '#2a2a2a' }}>
-                    {USE_VIDEO ? 'public/video.mp4' : 'public/alfian.jpg'}
+                    {USE_VIDEO ? 'public/video.mp4' : 'public/Alfian.jpg'}
                   </p>
                 </div>
               </div>
