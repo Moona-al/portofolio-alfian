@@ -14,16 +14,16 @@ const PROJECTS = [
     image: '/projects/menu.jpeg'
   },
   {
-    title: 'Project Website CRUD',
-    desc: 'Project sekolah Website CRUD sederhana menggunakan Laravel ',
-    tags: ['Laravel','PHP','MySQL','Bootstrap'],
-    year: '2025',
+    title: 'Project Website Showcase Brand ',
+    desc: 'Showcase brand PEACEMINUSONE by G-Dragon',
+    tags: ['Next.js','Vercel','TailwindCSS'],
+    year: '2026',
     color: '#5227FF',
-    link: '#',
-    image: '/projects/crud.jpeg'
+    link: 'https://showcase-brand-web.vercel.app/',
+    image: '/projects/showcase.png'
   },
   {
-    title: 'Membuat Game 2D berbasis Unity',
+    title: 'Game 2D atheria',
     desc: 'Sebuah game 2D sederhana bernama Aetheria yang dibuat menggunakan Unity.',
     tags: ['Unity','C++','C#','Game Development'],
     year: '2026',

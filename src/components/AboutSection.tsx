@@ -17,7 +17,7 @@ const INFO = [
 ];
 
 const USE_VIDEO = false;
-const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/Alfian.jpg';
+const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/alfian.jpg';
 
 export default function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -121,7 +121,7 @@ export default function AboutSection() {
                     👤
                   </div>
                   <div>
-                    <p className="font-display font-bold text-white text-lg">Adit Kusuma</p>
+                    <p className="font-display font-bold text-white text-lg">Alfian Fadillah</p>
                     <p className="font-mono text-xs mt-1" style={{ color: '#B19EEF' }}>Web Developer</p>
                   </div>
                   <div className="flex gap-1.5">
@@ -131,7 +131,7 @@ export default function AboutSection() {
                     ))}
                   </div>
                   <p className="text-xs font-mono" style={{ color: '#2a2a2a' }}>
-                    {USE_VIDEO ? 'public/video.mp4' : 'public/Adit.jpg'}
+                    {USE_VIDEO ? 'public/video.mp4' : 'public/alfian.jpg'}
                   </p>
                 </div>
               </div>
