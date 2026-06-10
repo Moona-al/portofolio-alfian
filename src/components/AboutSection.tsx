@@ -97,7 +97,7 @@ export default function AboutSection() {
             <TiltCard
               src={MEDIA_SRC}
               isVideo={USE_VIDEO}
-              alt="Adit Kusuma"
+              alt="Alfian Fadillah"
               style={{ width: '100%', height: '100%' }}
             >
               <div
